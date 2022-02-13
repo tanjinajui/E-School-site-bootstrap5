@@ -1,0 +1,112 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* default css  */
+.section-padding-top{
+    margin-top: 100px;
+}
+.section-padding-bottom{
+    margin-bottom: 100px;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+}
+a{
+    font-size: 16px;
+    font-weight: 400;
+    /* color: #000;  */
+    text-decoration: none;
+}
+header{
+    background: #F0FFF0;
+}
+.logo {
+    width: 130px;
+}
+.menu li a{
+    color: #000 !important;
+}
+.site-btn {
+    background: #21B573;
+    border-radius: 50px;
+    padding: 8px 27px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.home{
+    background: #F0FFF0;
+}
+.home-left span{
+    /* font-size: 16px; */
+    color: #FD511A;
+}
+.home-left h1{
+    font-size: 48px;
+}
+.home-left h1 span{
+    color: #21B573 ;
+}
+/* book css */
+.book-content img {
+    width: 63px;
+    padding-bottom: 15px;
+}
+
+.book-content {
+    background: #F8FFFB;
+    padding: 52px 35px;
+    margin-top: 38px;
+    height: 270px;
+}
+.book-content.active {
+    box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+    background: #fff;
+}
+/* course css  */
+.title{
+    font-size: 36px;
+    font-weight: 700;
+}
+.card{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 10px;
+}
+.card img {
+    padding: 15px;
+}
+.card-footer{
+    border-top: none;
+    padding-bottom: 16px;
+    background: #fff;
+}
+.card-footer img {
+    width: 17px;
+    padding: 0px;
+}
+.card-footer small {
+    font-size: 16px;
+    margin-left: -38px;
+}
+/* other css  */
+.testimonial img {
+    width: 18%;
+}
+.testimonial p {
+    padding-left: 32px;
+}
+.footer {
+    background: #282531;
+    color: #fff;
+    padding: 40px 0;
+}
+.link ul li{
+    list-style: none;
+}
+.link ul li a{
+    color: #fff;
+    margin-left: -32px;
+}
