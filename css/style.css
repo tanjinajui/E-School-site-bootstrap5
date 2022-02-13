@@ -39,6 +39,9 @@ header{
 .home{
     background: #F0FFF0;
 }
+.home-left{
+    padding: 70px 0;
+}
 .home-left span{
     /* font-size: 16px; */
     color: #FD511A;
